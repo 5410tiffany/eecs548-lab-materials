@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
+</head>
+
+<body>
+    <P>Viz 1</P>
+
+    <div id="vis1"></div>
+
+    <script>
+        vegaEmbed("#vis1", "./viz1.json");
+    </script>
+    <P>Viz 2</P>
+    <div id="vis2"></div>
+
+    <script>
+        vegaEmbed("#vis2", "./viz2.json");
+    </script>
+    <P>Viz 3</P>
+    <div id="vis3"></div>
+
+    <script>
+        vegaEmbed("#vis3", "./viz3.json");
+    </script>
+    <P>Viz 4</P>
+    <div id="vis4"></div>
+
+    <script>
+        vegaEmbed("#vis4", "./viz4.json");
+    </script>
+</body>
+
+</html>
